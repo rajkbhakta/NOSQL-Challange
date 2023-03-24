@@ -1,6 +1,6 @@
-const { connect, connection } = require('mongoose');
+const { connect, connection } = require("mongoose");
 
-connect('mongodb://127.0.0.1/socialNetwork', {
+connect("mongodb://localhost/socialNetwork", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
